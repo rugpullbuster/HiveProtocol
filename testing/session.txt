@@ -1,0 +1,167 @@
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T06:16:37.823Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x99afe5f8d49a647c359ff8584c3ce600cce4142c8b5fe6b7e535fcb0f9698c50
+MainAccount Balance     :  100000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x620232c26430be93476e2b42b73625ab28a6b6d773d1621ed7ec5aac7c5a4b28
+CreatePresale Success   :  0x43a4ba92e544b5d7fbd461260c961a19b478c435bf8f464c4e940d4229c37ca9
+Presale Address         :  0x092ca6657b35223c131058b604294ce978d579ea
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T15:09:34.914Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x02a12fc2a9b8b6db73ab635568a9ef9f334c761b78e41d4b5b01298d142248a3
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T15:22:57.467Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T16:14:04.286Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T16:17:15.034Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T18:21:18.949Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T18:53:31.237Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+------------------     Account1     --------------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T19:16:17.302Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T19:33:14.282Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T19:37:21.912Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T20:27:01.636Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T21:09:23.264Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+------------------     Account1     --------------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T21:49:14.150Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+UserDeposit Failed Error: Error: Returned error: replacement transaction underpriced
+    at Object.ErrorResponse (d:\RugPull\HiveToken\testing\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\testing\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\testing\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\testing\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\testing\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\testing\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\testing\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T21:50:15.144Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+*******************************************************
+Testing Hive Contract at:  0x2E006934b41FADebf0C7421031Cc9F2B6071f9AC
+Testing session on      :  2021-08-12T22:04:07.120Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+------------------     Account2     --------------------

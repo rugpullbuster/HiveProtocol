@@ -1,0 +1,193 @@
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-10T14:49:08.995Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x7f7044a1d9700ac9100bd5eba7dd4c29cc1c85520582f2372ac4250194013e80
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:18:01.223Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:36:57.000Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Router Approve Success  :  0xfd7385fbc85abebbf589289ddeb40ce5e8c7e23e47576eaf5f262cbdd08e4cff
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:39:26.128Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0xa0de5a3ad2bb9eab8fd7f77ce04248b2bde0733723e6ba363f3ec8987bb4ed66
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:42:28.878Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x67cdab5b4a102838efc0030d1db7c40a0f9fca7c8dec93adeaafa819e0f96adc
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:44:44.106Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0xd69e3f7771b51c0c6bc0e893d15dea2e5f3d53e661d72423616b05fda8015351
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:49:02.080Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x0e27b8abb79a96a23dfe19075ba511d598709fd112b1f7f305d5901843f411cd
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T03:51:23.526Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x3d640e997d1a8c2bebac5ec6bfc56b2cc1061a8bf184c8e12ed3bdb1f5b7659b
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T04:00:04.394Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x0f705c1b4edb0ef54165e11a474a7d168631c754ff83dde650ee598da5a46764
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T04:01:00.276Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+Presale Approve Success  :  0x41dfb6ec3079f93b556f1742659d574651b0f685bf628cf00836734f4480452a
+CreatePresale Success   :  0xaccb71a0cd6c2af8f51ab20f099e68f050e39485a3d177b05532572db15277cf
+Presale Address         :  0x000000000000000000000000bcca5b055312e4eea486913508465947b9e9d3dc
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T11:01:53.116Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Test Account       ----------------
+BuyPresaleToken Success :  0x1bcf92414c128911f30492a657144aa5da5a20183e3002a7e175443ccec53bf7
+Balance                 :  Result {
+  '0': '500000000000000000',
+  '1': '6944444444444444444',
+  baseDeposited: '500000000000000000',
+  tokensOwed: '6944444444444444444'
+}
+------------------     Account3     --------------------
+BuyPresaleToken Success :  0x7457970eee410405bf95054b5134915c8dd72122db995b342be92a84373f7770
+Balance                 :  Result {
+  '0': '500000000000000000',
+  '1': '6944444444444444444',
+  baseDeposited: '500000000000000000',
+  tokensOwed: '6944444444444444444'
+}
+------------------     Account4     --------------------
+BuyPresaleToken Success :  0x90722d2531452711663e1ef7277d34f0bf48caefb8272ed340b08f5ab8d855ce
+Balance                 :  Result {
+  '0': '500000000000000000',
+  '1': '6944444444444444444',
+  baseDeposited: '500000000000000000',
+  tokensOwed: '6944444444444444444'
+}
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T15:43:49.924Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------        Participating in Presale          --------
+--------------------------------------------------------
+--------------       Main Account       ----------------
+BuyPresaleToken Success :  0x8bd63b1bb0cbb39dd51025fa09023c82597ec036512e714748105c7c82580c4e
+Balance                 :  Result {
+  '0': '500000000000000000',
+  '1': '6944444444444444444',
+  baseDeposited: '500000000000000000',
+  tokensOwed: '6944444444444444444'
+}
+------------------     Account1     --------------------
+BuyPresaleToken Success :  0xc9d9bf8278d5cef1f114121ec59e7a9ef6dd9b2f0028c9708b27a78e2f659cac
+Balance                 :  Result {
+  '0': '500000000000000000',
+  '1': '6944444444444444444',
+  baseDeposited: '500000000000000000',
+  tokensOwed: '6944444444444444444'
+}
+------------------     Account1     --------------------
+BuyPresaleToken Success :  0xa5ff9230c64b2e6b50124d510767eda237c43ce209875e3afc313a5d55da5fcc
+Balance                 :  Result {
+  '0': '1000000000000000000',
+  '1': '13888888888888888888',
+  baseDeposited: '1000000000000000000',
+  tokensOwed: '13888888888888888888'
+}
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T15:48:55.203Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------           Finalizing Presale             --------
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T16:52:39.792Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------           Finalizing Presale             --------
+--------------------------------------------------------
+FinalizePresale Success :  0xff7f5f88511649b17596fa57049ee817d26bd03f93c9b94a175071df6a9f1b9d
+*******************************************************
+Testing Hive Contract at:  0xf1E9E7B64EC7D75a348e0dEC6851Fc74AcCB2DdC
+Testing session on      :  2021-08-11T16:57:20.836Z
+*******************************************************
+Creating Presale:
+--------------------------------------------------------
+--------------------------------------------------------
+------           Finalizing Presale             --------
+--------------------------------------------------------
+InitTrading Success     :  0xdb4eab5f1dbeeb1a43418f8e47326ea6f8a167c617d4f728397aa8c74dcd7c3f
+--------------       Main Account       ----------------
+claimPresaleTokens Success :  0x996fa9ca26565c299d889584014bf21cf5e1643da1a2be78c525691bebbe71b6
+Account Token Balance      :  42547277777777777776
+------------------     Account1     --------------------
+claimPresaleTokens Success :  0x016fc68818b62a64aad42de081aa5192ed0e5f924bc811abeb33d9b76f8012fa
+Account Token Balance      :  15888888888888888888
+------------------     Account3     --------------------
+claimPresaleTokens Success :  0xe08b043952626582aab77fb9175a0f2002ede7b4dc21d31262cb0e41f2662441
+Account Token Balance      :  8944444444444444444
+------------------     Account4     --------------------
+claimPresaleTokens Success :  0x0281db2ef5f2672f0ed9d82e9c86e39c74bc571acada4869602c2f7107cb793d
+Account Token Balance      :  8944444444444444444
+--------------       Test Account       ----------------
+claimPresaleTokens Success :  0x06f15af5958bb92201646cb82fd6f177fff781c83f4fea72be6ab5e99e16680b
+Account Token Balance      :  6944444444444444444
+--------------------------------------------------------

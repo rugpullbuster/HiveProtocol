@@ -1,0 +1,1013 @@
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-08T23:04:34.926Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x13dbb14a18280227432bebc7838ec6ec29f7559856bcd2c3a49f228bb6aa2d1b
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x2e7488ef7ddd2f0d71f3e40af5c2a8f5eb4d78fece6a95f8ae7af26728791ffc
+AddLiquidityETH Success :  0x77ca4190b9459f96ca2b133b81f4dac4929237b07e74e834d6f15722d3677f4d
+Pair Address            :  0x8749ab71c37643860290f45e0005737145be7c2b
+Reserve ETH             :  10000000000000000000n
+Reserve Token           :  1000000000000000000n
+Liquidity               :  3162277660168378331n
+InitTrading Success     :  0x0544bcf919aa5aa1c9b2a814b20cf8c984ab306742658ab35fb85a3270c9e689
+Circulating Supply      :  90000000000000000000
+MainAccount Trade       :  Result {
+  '0': '1625785494',
+  '1': '10000000000000000000',
+  '2': '82000000000000000000',
+  '3': '0',
+  '4': '0',
+  '5': true,
+  timestamp: '1625785494',
+  tradeAmount: '10000000000000000000',
+  tBalance: '82000000000000000000',
+  rewardTokenBalance: '0',
+  rewardETHBalance: '0',
+  sellFlag: true
+}
+
+Pair Creation Test Processed
+--------------------------------------------------------
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xaaa915459e3724b8f53f291635a36e5455452deead4b0b4e72817c94ac9ac926
+actual ETH                    :  111333778668448008n
+actual Token                  :  1000000000000000007n
+Reserve Token                 :  8999999999999999993n
+Reserve ETH                   :  1111333778668448008n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0x22c501a633f5512fc7e06c8d304fd267dc66d97c903a837840cab6eafbd9ebad
+Total Act Tokens          :  539999999999999999n
+Token Total Tax           :  80999999999999997n  [14.999%]
+Net Token Sold            :  459000000000000002n
+Contract Balance          :  80999999999999997
+Circulating Supply        :  90460000000000000008
+SwapAndLiquifyBalance     :  26999999999999999
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  1460000000000000001
+swapTokenswithFee Success :  0xd013449db9c64625b52169284f1d7ca382530fd1594ae2053ebd7028c10e1c41
+Total Act Tokens          :  283769999999999999n
+Token Total Tax           :  36606329999999997n  [12.899%]
+Net Token Sold            :  247163670000000002n
+Contract Balance          :  117606329999999994
+Circulating Supply        :  90176230000000000009
+SwapAndLiquifyBalance     :  41188499999999998
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1176230000000000002
+swapTokenswithFee Success :  0x7ebf8550dd53b74694d5930465a38894d79680f704dcd3033a1df0c7775859a5
+Total Act Tokens          :  106767800369999999n
+Token Total Tax           :  11744458040699997n  [10.999%]
+Net Token Sold            :  95023342329300002n
+Contract Balance          :  129350788040699991
+Circulating Supply        :  90069462199630000010
+SwapAndLiquifyBalance     :  46526890018499997
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1069462199630000003
+swapTokenswithFee Success :  0xb6026dc1c8b1bfc863ebdcc4591320c82dcca6ca037244bc11ca747b7cb6da41
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  2333036699672378n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  90665307748615500
+Circulating Supply        :  89981251516519036311
+SwapAndLiquifyBalance     :  3312751604207223
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-09T20:40:39.772Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x5b075957478651543aa35aca9d8c0b5bd4e91cc59e0a840711903c081353f78a
+actual ETH                    :  114982640668789663n
+actual Token                  :  1001932395490592976n
+Reserve Token                 :  8878644231638574354n
+Reserve ETH                   :  1131865799631844762n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  981251516519036304
+swapTokenswithFee Success :  0xdbace0ce747e0d9b15d05ca904051ddafe8cdd432b8b5413d655fd1e2daa13d7
+Total Act Tokens          :  596641860409720180n
+Token Total Tax           :  89496279061458027n  [15%]
+Net Token Sold            :  507145581348262153n
+Contract Balance          :  180161586810073527
+Circulating Supply        :  90386542051599909107
+SwapAndLiquifyBalance     :  33144844624693232
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  384609656109316124
+swapTokenswithFee Success :  0x641182fbe83d12b717a2630174ee464581c0fc243a674f5dda970744f57c2d05
+Total Act Tokens          :  298320930204860090n
+Token Total Tax           :  39080041856836670n  [13.099%]
+Net Token Sold            :  259240888348023420n
+Contract Balance          :  219241628666910197
+Circulating Supply        :  90088221121395049017
+SwapAndLiquifyBalance     :  48060891134936236
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  86288725904456034
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  86288725904456034
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-09T22:06:18.209Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0x21779d2092e2dc9e61b74c025d427794925ebe6b273a397354c4bce68c0dd53e
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  2420515010663620n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  258539521786413202
+Circulating Supply        :  89509519279314957422
+SwapAndLiquifyBalance     :  29371352398566351
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  1421298157919908405
+swapTokenswithFee Success :  0x504fd795b619d56446166400bbfc4f01f49c3c68d541fb4048ac8fac55be0d2c
+Total Act Tokens          :  304107818013088133n
+Token Total Tax           :  39229908523688367n  [12.899%]
+Net Token Sold            :  264877909489399766n
+Contract Balance          :  297769430310101569
+Circulating Supply        :  89205411461301869289
+SwapAndLiquifyBalance     :  44576743299220757
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1117190339906820272
+swapTokenswithFee Success :  0x823e8c5b0b1d79ee2a27944c179ca6561493bf83bdf0322f1be34379d4a5b514
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  2090992926248679n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  262852042475818142
+Circulating Supply        :  89090991604359353576
+SwapAndLiquifyBalance     :  2672914751244549
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1002770482964304559
+swapTokenswithFee Success :  0x6bdb6b9b363e62220593236dc5fabf92b6883afc4ca97861f228609ccc85bbf0
+Total Act Tokens          :  94532749643440588n
+Token Total Tax           :  9453274964344058n  [9.999%]
+Net Token Sold            :  85079474679096530n
+Contract Balance          :  272305317440162200
+Circulating Supply        :  88996458854715912988
+SwapAndLiquifyBalance     :  7399552233416578
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-10T23:55:43.566Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  908237733320863971
+swapTokenswithFee Success :  0xfe4beed208811174d40893985dbbc61639fc2f01680704a8cb4f734ad5c43fba
+Total Act Tokens          :  635323099437016384n
+Token Total Tax           :  95298464915552457n  [14.999%]
+Net Token Sold            :  540024634521463927n
+Contract Balance          :  367603782355714657
+Circulating Supply        :  88361135755278896604
+SwapAndLiquifyBalance     :  39165707205267397
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  272914633883847587
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  272914633883847587
+swapTokenswithFee Success :  0x55aa31627315e7b4b8fcf1fbe517abca8b169697261a7f4a500400558d67b1ca
+Total Act Tokens          :  122416172543189106n
+Token Total Tax           :  13465778979750801n  [10.999%]
+Net Token Sold            :  108950393563438305n
+Contract Balance          :  381069561335465458
+Circulating Supply        :  88238719582735707498
+SwapAndLiquifyBalance     :  45286515832426852
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  150498461340658481
+swapTokenswithFee Success :  0xb3a21ba941421e8b5f3289d6d4df86b4463f5e159b3138ea7849b2da96838a77
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  1799405464330046n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  343683526170357126
+Circulating Supply        :  88137580342567390921
+SwapAndLiquifyBalance     :  2718475799939679
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-11T22:51:45.406Z
+*******************************************************
+  timestamp          : 1625961355
+  timestamp          : 2021-07-10T23:55:55
+  totStaked          : 86359203359788303621
+  totTokenReward     : 335207329433464175
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-11T22:55:02.303Z
+*******************************************************
+  current timestamp  : 2021-07-11 22:55:04
+  unix timestamp     : 1625961355
+  timestamp          : 2021-07-10 23:55:55
+  totStaked          : 86359203359788303621
+  totTokenReward     : 335207329433464175
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-12T08:50:33.002Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+
+Trading Test Processed
+--------------------------------------------------------
+Staking Interval          :  86400
+Contract Token Balance    :  343683526170357126
+Contract ETH Balance      :  0
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1625785479
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1625961355
+  totStaked          : 86359203359788303621
+  totTokenReward     : 335207329433464175
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  82000000000000000000
+dueTokenReward       :  318286875563547840
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785494
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  86288725904456034
+dueTokenReward       :  334933767859618
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785518
+  tradeAmount        :  539999999999999999
+  tBalance           :  1460000000000000001
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625785527
+  tradeAmount        :  283769999999999999
+  tBalance           :  1176230000000000002
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625785539
+  tradeAmount        :  106767800369999999
+  tBalance           :  1069462199630000003
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625785548
+  tradeAmount        :  88210683110963699
+  tBalance           :  981251516519036304
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625863255
+  tradeAmount        :  596641860409720180
+  tBalance           :  384609656109316124
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625863264
+  tradeAmount        :  298320930204860090
+  tBalance           :  86288725904456034
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  49359221172341904
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625868397
+  tradeAmount        :  578701842080091595
+  tBalance           :  1421298157919908405
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625868406
+  tradeAmount        :  304107818013088133
+  tBalance           :  1117190339906820272
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625868418
+  tradeAmount        :  114419856942515713
+  tBalance           :  1002770482964304559
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625868427
+  tradeAmount        :  94532749643440588
+  tBalance           :  908237733320863971
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625961355
+  tradeAmount        :  635323099437016384
+  tBalance           :  272914633883847587
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625961367
+  tradeAmount        :  122416172543189106
+  tBalance           :  150498461340658481
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1625961379
+  tradeAmount        :  101139240168316577
+  tBalance           :  49359221172341904
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  7763094525940191
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  7763094525940191
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  2001932395490592983
+dueTokenReward       :  7770595210367678
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785506
+  tradeAmount        :  1000000000000000007
+  tBalance           :  1000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625863249
+  tradeAmount        :  1001932395490592976
+  tBalance           :  2001932395490592983
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-12T10:09:04.890Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xd4ca0670ed80c096dc0c7ed93cf0a8308e17657c25e1042e62808af410d39161
+actual ETH                    :  100031346370980951n
+actual Token                  :  1132871866818666032n
+Reserve Token                 :  10195846801367994188n
+Reserve ETH                   :  998512899475131844n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+
+Trading Test Processed
+--------------------------------------------------------
+Staking Interval          :  86400
+Contract Token Balance    :  343683526170357126
+Contract ETH Balance      :  0
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1625785479
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1625961355
+  totStaked          : 86359203359788303621
+  totTokenReward     : 335207329433464175
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[2]----------:
+  timestamp          : 1626084557
+  totStaked          : 88137580342567390921
+  totTokenReward     : 14776930320104173
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  82000000000000000000
+dueTokenReward       :  332034794232734735
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785494
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  86288725904456034
+dueTokenReward       :  349400723784035
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785518
+  tradeAmount        :  539999999999999999
+  tBalance           :  1460000000000000001
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625785527
+  tradeAmount        :  283769999999999999
+  tBalance           :  1176230000000000002
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625785539
+  tradeAmount        :  106767800369999999
+  tBalance           :  1069462199630000003
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625785548
+  tradeAmount        :  88210683110963699
+  tBalance           :  981251516519036304
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625863255
+  tradeAmount        :  596641860409720180
+  tBalance           :  384609656109316124
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625863264
+  tradeAmount        :  298320930204860090
+  tBalance           :  86288725904456034
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  49359221172341904
+dueTokenReward       :  8275445832338
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625868397
+  tradeAmount        :  578701842080091595
+  tBalance           :  1421298157919908405
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625868406
+  tradeAmount        :  304107818013088133
+  tBalance           :  1117190339906820272
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625868418
+  tradeAmount        :  114419856942515713
+  tBalance           :  1002770482964304559
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625868427
+  tradeAmount        :  94532749643440588
+  tBalance           :  908237733320863971
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625961355
+  tradeAmount        :  635323099437016384
+  tBalance           :  272914633883847587
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625961367
+  tradeAmount        :  122416172543189106
+  tBalance           :  150498461340658481
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1625961379
+  tradeAmount        :  101139240168316577
+  tBalance           :  49359221172341904
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  8098409615432554
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  8098409615432554
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  3134804262309259015
+dueTokenReward       :  8296168796246313
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785506
+  tradeAmount        :  1000000000000000007
+  tBalance           :  1000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625863249
+  tradeAmount        :  1001932395490592976
+  tBalance           :  2001932395490592983
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1626084557
+  tradeAmount        :  1132871866818666032
+  tBalance           :  3134804262309259015
+  rewardTokenBalance :  7770595210367678
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-13T18:49:23.709Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xb0a01b55fd691be822031e77fa5ea48b440ec765045b5dad5dc2e676c225805d
+actual ETH                    :  111168214147754603n
+actual Token                  :  1019584680136799418n
+Reserve Token                 :  9176262121231194770n
+Reserve ETH                   :  1109681113622886447n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  49359221172341904
+
+Trading Test Processed
+--------------------------------------------------------
+Staking Interval          :  86400
+Contract Token Balance    :  343683526170357126
+Contract ETH Balance      :  0
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1625785479
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1625961355
+  totStaked          : 86359203359788303621
+  totTokenReward     : 335207329433464175
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[2]----------:
+  timestamp          : 1626084557
+  totStaked          : 88137580342567390921
+  totTokenReward     : 14776930320104173
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[3]----------:
+  timestamp          : 1626202173
+  totStaked          : 89270452209386056953
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  82000000000000000000
+dueTokenReward       :  332034794232734735
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785494
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  86288725904456034
+dueTokenReward       :  349400723784035
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625785518
+  tradeAmount        :  539999999999999999
+  tBalance           :  1460000000000000001
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625785527
+  tradeAmount        :  283769999999999999
+  tBalance           :  1176230000000000002
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625785539
+  tradeAmount        :  106767800369999999
+  tBalance           :  1069462199630000003
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625785548
+  tradeAmount        :  88210683110963699
+  tBalance           :  981251516519036304
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625863255
+  tradeAmount        :  596641860409720180
+  tBalance           :  384609656109316124
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625863264
+  tradeAmount        :  298320930204860090
+  tBalance           :  86288725904456034
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  49359221172341904
+dueTokenReward       :  8275445832338
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625868397
+  tradeAmount        :  578701842080091595
+  tBalance           :  1421298157919908405
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1625868406
+  tradeAmount        :  304107818013088133
+  tBalance           :  1117190339906820272
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1625868418
+  tradeAmount        :  114419856942515713
+  tBalance           :  1002770482964304559
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1625868427
+  tradeAmount        :  94532749643440588
+  tBalance           :  908237733320863971
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1625961355
+  tradeAmount        :  635323099437016384
+  tBalance           :  272914633883847587
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1625961367
+  tradeAmount        :  122416172543189106
+  tBalance           :  150498461340658481
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1625961379
+  tradeAmount        :  101139240168316577
+  tBalance           :  49359221172341904
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  8098409615432554
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  8098409615432554
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785479
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  4154388942446058433
+dueTokenReward       :  8296168796246313
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1625785506
+  tradeAmount        :  1000000000000000007
+  tBalance           :  1000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1625863249
+  tradeAmount        :  1001932395490592976
+  tBalance           :  2001932395490592983
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1626084557
+  tradeAmount        :  1132871866818666032
+  tBalance           :  3134804262309259015
+  rewardTokenBalance :  7770595210367678
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1626202173
+  tradeAmount        :  1019584680136799418
+  tBalance           :  4154388942446058433
+  rewardTokenBalance :  8296168796246313
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xa2dA31d5A62e523c21565F0cC8489e746511aA32
+Testing session on      :  2021-07-13T18:55:42.072Z
+*******************************************************
+Contract LP Token Balance    :  25051315682131204
+Test of auth step1:  {
+  blockHash: '0xc47b2b952af5e30247c53959f9189e4c75b3594e373b7ddb66dc74999dcee6ed',
+  blockNumber: 10563876,
+  contractAddress: null,
+  cumulativeGasUsed: 330754,
+  from: '0x6756183e14ad778818f05a3af692c2f4b6c7fde7',
+  gasUsed: 72428,
+  logs: [],
+  logsBloom: '0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000',
+  status: true,
+  to: '0xa2da31d5a62e523c21565f0cc8489e746511aa32',
+  transactionHash: '0x794eb45cff3aae49fc48e0ded53bd8517fd632762f3801003d7bb105b348d787',
+  transactionIndex: 3,
+  type: '0x0'
+}
+Test of auth step2:  0xde124e20ebc4e628ed822e90669fee7e73dba04f68427381d088263df857c0ef
+Test of auth step3:  0x4d09d4c343e1c85fd24938d74778f28b9c3b185ac6ac54b1144ac47026cd5020
+
+LP Liquification Test Processed
+--------------------------------------------------------

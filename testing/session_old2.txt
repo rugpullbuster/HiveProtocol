@@ -1,0 +1,2213 @@
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-18T21:56:07.712Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xa8a7393b4ed3f82317320617d0646cdfeadd1488db0930306761c4f16b38b766
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0xa51a4460df282f7f780ca83ebc748948440d81dad882bcccabb0dd62beae0860
+AddLiquidityETH Success :  0x598c390f82372528e7e5ba78b1a771c29748eef83ac2bd8c5955191941883212
+Pair Address            :  0x881c9d8ea6f82bae9980152d1820dbbf9935645b
+Reserve ETH             :  10000000000000000000n
+Reserve Token           :  1000000000000000000n
+Liquidity               :  3162277660168378331n
+InitTrading Success     :  0x9e7c91868b31bb0dc66a1a2973c81d0883dddf9b20b9fe5a43bca20ac047769b
+Circulating Supply      :  90000000000000000000
+MainAccount Trade       :  Result {
+  '0': '1626645395',
+  '1': '10000000000000000000',
+  '2': '82000000000000000000',
+  '3': '0',
+  '4': '0',
+  '5': true,
+  timestamp: '1626645395',
+  tradeAmount: '10000000000000000000',
+  tBalance: '82000000000000000000',
+  rewardTokenBalance: '0',
+  rewardETHBalance: '0',
+  sellFlag: true
+}
+
+Pair Creation Test Processed
+--------------------------------------------------------
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x3935a01b8477c83520144ac184ee5b0e4b5142820d4231b51a12ed02c7746c54
+actual ETH                    :  111333778668448008n
+actual Token                  :  1000000000000000007n
+Reserve Token                 :  8999999999999999993n
+Reserve ETH                   :  1111333778668448008n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0x90a3ebea8f8512b572a960a4d4335736bc735794de5cb7f842249e689e7f6cb3
+Total Act Tokens          :  98999999999999999n
+Token Total Tax           :  10889999999999997n  [10.999%]
+Net Token Sold            :  88110000000000002n
+Contract Balance          :  10889999999999997
+Circulating Supply        :  90901000000000000008
+SwapAndLiquifyBalance     :  4949999999999999
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1901000000000000001
+swapTokenswithFee Success :  0xf269f5bc27144ffef38d69ba9192bd12b26d84f653c965f191fee31209a9ae12
+Total Act Tokens          :  81792989999999999n
+Token Total Tax           :  8179298999999998n  [9.999%]
+Net Token Sold            :  73613691000000001n
+Contract Balance          :  19069298999999995
+Circulating Supply        :  90819207010000000009
+SwapAndLiquifyBalance     :  9039649499999998
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-19T23:18:30.355Z
+*******************************************************
+  current timestamp  : 2021-07-19 23:18:32
+  unix timestamp     : 1626645377
+  timestamp          : 2021-07-18 21:56:17
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-19T23:20:36.570Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x81ecc485c9f017ab542d1e25eecf4afe03fd89b5f6369df8da7b1b1319ebd7c4
+actual ETH                    :  121549222172155552n
+actual Token                  :  916172369099999999n
+Reserve Token                 :  8245551321899999997n
+Reserve ETH                   :  1213304335722456720n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1819207010000000002
+swapTokenswithFee Success :  0x3fae473412b34ab27cb4f4a777960aedce76bd2787a078f4c0d9ebf70c0714ec
+Total Act Tokens          :  90701064540899999n
+Token Total Tax           :  9977117099498997n  [10.999%]
+Net Token Sold            :  80723947441401002n
+Contract Balance          :  29046416099498992
+Circulating Supply        :  91644678314559100009
+SwapAndLiquifyBalance     :  13574702727044997
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1728505945459100003
+swapTokenswithFee Success :  0xd19d6032a09d609a8031ee855efe6b5568c38bada2ea3107b4be8bc578f9ae9c
+Total Act Tokens          :  74936477424072608n
+Token Total Tax           :  7493647742407260n  [9.999%]
+Net Token Sold            :  67442829681665348n
+Contract Balance          :  36540063841906252
+Circulating Supply        :  91569741837135027401
+SwapAndLiquifyBalance     :  17321526598248627
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-20T22:51:48.408Z
+*******************************************************
+  current timestamp  : 2021-07-20 22:51:50
+  unix timestamp     : 1626736845
+  timestamp          : 2021-07-19 23:20:45
+  totStaked          : 100000000000000000000
+  totTokenReward     : 10029649499999997
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-20T23:39:14.953Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xcde4fe387f93893751d6db75c1b9dc7cdbefa25323a0337916479a10f2f97172
+actual ETH                    :  132701984854512469n
+actual Token                  :  839371809902306635n
+Reserve Token                 :  7554346289120759712n
+Reserve ETH                   :  1324631212817743465n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1653569468035027395
+swapTokenswithFee Success :  0xa40e4d7253aa76661cc1c3dee1773d8747894f656dbbfe2c4a8aa8bc8f027b8c
+Total Act Tokens          :  83097809180328356n
+Token Total Tax           :  9140759009836117n  [10.999%]
+Net Token Sold            :  73957050170492239n
+Contract Balance          :  45680822851742369
+Circulating Supply        :  92326015837857005680
+SwapAndLiquifyBalance     :  21476417057265044
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1570471658854699039
+swapTokenswithFee Success :  0x1b8f60aa74282b1553be45c14f83cca3377a62ceffe86c7a5f80eb74600265a3
+Total Act Tokens          :  68654730053621267n
+Token Total Tax           :  6865473005362126n  [9.999%]
+Net Token Sold            :  61789257048259141n
+Contract Balance          :  52546295857104495
+Circulating Supply        :  92257361107803384413
+SwapAndLiquifyBalance     :  24909153559946107
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-20T23:39:58.416Z
+*******************************************************
+  current timestamp  : 2021-07-20 23:40:00
+  unix timestamp     : 1626824362
+  timestamp          : 2021-07-20 23:39:22
+  totStaked          : 91735379379100000008
+  totTokenReward     : 9188887743657628
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-22T10:37:42.586Z
+*******************************************************
+  current timestamp  : 2021-07-22 10:37:47
+  snapshot timestamp : 2021-07-20 23:39:22
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-22T10:42:29.407Z
+*******************************************************
+  current timestamp  : 2021-07-22 10:42:34
+  snapshot timestamp : 2021-07-20 23:39:22
+  duration           : 1970-01-02 11:03:12
+  totStaked          : 91735379379100000008
+  totTokenReward     : 9188887743657628
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-22T10:44:35.639Z
+*******************************************************
+  current timestamp  : 2021-07-22 10:44:38
+  snapshot timestamp : 2021-07-20 23:39:22
+  duration           : 1 Days 13 Hours 5 Minutes 16 Seconds
+  totStaked          : 91735379379100000008
+  totTokenReward     : 9188887743657628
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-22T10:46:31.700Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x9c1e3f8530a47b2351391c42635b2b36086a11233b40c0ec160fce0747e2063a
+actual ETH                    :  144878070543188607n
+actual Token                  :  769009259633951112n
+Reserve Token                 :  6921083336705559980n
+Reserve ETH                   :  1446172900162108668n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1501816928801077772
+swapTokenswithFee Success :  0x7a9b4a84953ae59085c5cef49a542280770756f8499eac878e5a8351448dd6f1
+Total Act Tokens          :  76131916703761159n
+Token Total Tax           :  8374510837413725n  [10.999%]
+Net Token Sold            :  67757405866347434n
+Contract Balance          :  60920806694518220
+Circulating Supply        :  92950238450733574366
+SwapAndLiquifyBalance     :  28715749395134164
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1425685012097316613
+swapTokenswithFee Success :  0x92af4093bab3ac926f6117271845edc46118a420987c023ffa2ba91d54060d97
+Total Act Tokens          :  62899566683147166n
+Token Total Tax           :  6289956668314716n  [9.999%]
+Net Token Sold            :  56609610014832450n
+Contract Balance          :  67210763362832936
+Circulating Supply        :  92887338884050427200
+SwapAndLiquifyBalance     :  31860727729291522
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-23T12:15:53.834Z
+*******************************************************
+  current timestamp  : 2021-07-23 12:15:58
+  snapshot timestamp : 2021-07-22 10:46:41
+  duration           : 1 Days 3:29:17
+  totStaked          : 92409113647037334036
+  totTokenReward     : 8418605053500763
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-23T12:17:31.751Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xc602a7d9206c4e2f4e58b33a24bb810a8d00f59527ba4b71be754d459081cfc3
+actual ETH                    :  158171374356827420n
+actual Token                  :  704545035258673988n
+Reserve Token                 :  6340905317328065876n
+Reserve ETH                   :  1578866658829851302n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1362785445414169447
+swapTokenswithFee Success :  0x7368ec78385ef62df881d62506be5ae751d8bb30d7a2adfc92f39a324f680cac
+Total Act Tokens          :  69749958490608724n
+Token Total Tax           :  7672495433966959n  [10.999%]
+Net Token Sold            :  62077463056641765n
+Contract Balance          :  74883258796799895
+Circulating Supply        :  93522133960818492464
+SwapAndLiquifyBalance     :  35348225653821958
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1293035486923560723
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T11:47:12.586Z
+*******************************************************
+  current timestamp  : 2021-07-25 11:47:14
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T13:16:44.498Z
+*******************************************************
+  current timestamp  : 2021-07-25 13:16:46
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T13:17:07.534Z
+*******************************************************
+  current timestamp  : 2021-07-25 13:17:11
+  snapshot timestamp : 2021-07-23 12:17:40
+  duration           : 2 Days 2:59:56
+  totStaked          : 93026370367437335525
+  totTokenReward     : 7712893336383026
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T13:18:10.805Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Failed Error: Error: Invalid JSON RPC response: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+    at Object.InvalidResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:43:16)
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:95:32)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T13:18:51.159Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x405f3a68603b61b0769a4053e5d548b6830828369fef04a46c4d2133435b5b96
+actual ETH                    :  172684406771345314n
+actual Token                  :  645484694090582378n
+Reserve Token                 :  5809362246815241395n
+Reserve ETH                   :  1723735748391568921n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1235408641900098355
+swapTokenswithFee Success :  0x95058dee77e4f1ed24857aab0483ef69af0b2c9e4291aa732ee644c4cb6e00a3
+Total Act Tokens          :  63902984714967655n
+Token Total Tax           :  7029328318646440n  [10.999%]
+Net Token Sold            :  56873656396321215n
+Contract Balance          :  87675271617792571
+Circulating Supply        :  94046088825170644819
+SwapAndLiquifyBalance     :  41424717140743458
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1171505657185130700
+swapTokenswithFee Success :  0x3c1320e5959a2a0d752eaec445ed7a6564cefe8838edda8eb3093c612288a079
+Total Act Tokens          :  52796123128904063n
+Token Total Tax           :  5279612312890406n  [9.999%]
+Net Token Sold            :  47516510816013657n
+Contract Balance          :  92954883930682977
+Circulating Supply        :  93993292702041740756
+SwapAndLiquifyBalance     :  44064523297188661
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-25T13:19:35.136Z
+*******************************************************
+  current timestamp  : 2021-07-25 13:19:38
+  snapshot timestamp : 2021-07-25 13:18:58
+  duration           : 0 Days 2:0:40
+  totStaked          : 93591883919309101188
+  totTokenReward     : 7066339760609641
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-26T12:01:13.693Z
+*******************************************************
+  current timestamp  : 2021-07-26 12:01:21
+  snapshot timestamp : 2021-07-25 13:18:58
+  duration           : 0 Days 0:42:23
+  totStaked          : 93591883919309101188
+  totTokenReward     : 7066339760609641
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-26T14:58:09.749Z
+*******************************************************
+  current timestamp  : 2021-07-26 14:58:16
+  snapshot timestamp : 2021-07-25 13:18:58
+  duration           : 1 Days 3:39:18
+  totStaked          : 93591883919309101188
+  totTokenReward     : 7066339760609641
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-26T15:08:56.550Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x897890f44be72a96a8a533082569890fa62db28cfbfd34cc76b2a590da4c7c69
+actual ETH                    :  188529084123016499n
+actual Token                  :  591375241402757627n
+Reserve Token                 :  5322377172624818640n
+Reserve ETH                   :  1881897317715950689n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1118709534056226637
+swapTokenswithFee Success :  0x40d5914f35ae4a43264ca1cfaae62f7e070afa109ab6940bbb851f95f5de6922
+Total Act Tokens          :  58546148898873005n
+Token Total Tax           :  6440076378876030n  [10.999%]
+Net Token Sold            :  52106072519996975n
+Contract Balance          :  99394960309559007
+Circulating Supply        :  94526121794545625378
+SwapAndLiquifyBalance     :  46991830742132311
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1060163385157353632
+swapTokenswithFee Success :  0x9b6dc03bf186307e9ab40de1430b2c5a2c80b549e8976af509d03563f20e8399
+Total Act Tokens          :  48370349206303340n
+Token Total Tax           :  4837034920630334n  [10%]
+Net Token Sold            :  43533314285673006n
+Contract Balance          :  104231995230189341
+Circulating Supply        :  94477751445339322038
+SwapAndLiquifyBalance     :  49410348202447478
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-27T17:27:09.248Z
+*******************************************************
+  current timestamp  : 2021-07-27 17:27:16
+  snapshot timestamp : 2021-07-26 15:09:19
+  duration           : 1 Days 4:17:57
+  totStaked          : 94109991809885612474
+  totTokenReward     : 6473985239343261
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-27T17:30:16.122Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x06fbe586714e8ff1fbb5c4ec1a88bb4ac8b00082ab1d0593b8c2786f77b1fae7
+actual ETH                    :  205827591644258159n
+actual Token                  :  541801655943048863n
+Reserve Token                 :  4876214903487439758n
+Reserve ETH                   :  2054571019792984937n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1011793035951050292
+swapTokenswithFee Success :  0x176436650786a41ef91f51f10dd46036bdd87aedd4e9411150b1d3920d5a3133
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  9417942657578737n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  62573602623277418
+Circulating Supply        :  94965914737344009064
+SwapAndLiquifyBalance     :  4470197031372155
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  958154672012688455
+swapTokenswithFee Success :  0xa76fd5f8f875dee13514a7172440aab1766dc9b078981fdca15efd615c7020e5
+Total Act Tokens          :  44315577426533236n
+Token Total Tax           :  4431557742653322n  [9.999%]
+Net Token Sold            :  39884019683879914n
+Contract Balance          :  67005160365930740
+Circulating Supply        :  94921599159917475828
+SwapAndLiquifyBalance     :  6685975902698816
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-27T17:34:28.306Z
+*******************************************************
+Staking Interval          :  86400
+Contract Token Balance    :  67005160365930740
+Contract ETH Balance      :  1000000000000000000
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1626645377
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1626736845
+  totStaked          : 100000000000000000000
+  totTokenReward     : 10029649499999997
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[2]----------:
+  timestamp          : 1626824362
+  totStaked          : 91735379379100000008
+  totTokenReward     : 9188887743657628
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[3]----------:
+  timestamp          : 1626950801
+  totStaked          : 92409113647037334036
+  totTokenReward     : 8418605053500763
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[4]----------:
+  timestamp          : 1627042660
+  totStaked          : 93026370367437335525
+  totTokenReward     : 7712893336383026
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[5]----------:
+  timestamp          : 1627219138
+  totStaked          : 93591883919309101188
+  totTokenReward     : 7066339760609641
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[6]----------:
+  timestamp          : 1627312159
+  totStaked          : 94109991809885612474
+  totTokenReward     : 6473985239343261
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[7]----------:
+  timestamp          : 1627407027
+  totStaked          : 94584667943444498383
+  totTokenReward     : 5931286394247547
+  totETHReward       : 1000000000000000000
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  82000000000000000000
+dueTokenReward       :  39456897950353370
+dueETHReward         :  866948119424922924
+Trade[0]-------------: 
+  timestamp          :  1626645377
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1626645395
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  913839094586155219
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1626645377
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1626645419
+  tradeAmount        :  98999999999999999
+  tBalance           :  1901000000000000001
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1626645428
+  tradeAmount        :  81792989999999999
+  tBalance           :  1819207010000000002
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1626736857
+  tradeAmount        :  90701064540899999
+  tBalance           :  1728505945459100003
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1626736866
+  tradeAmount        :  74936477424072608
+  tBalance           :  1653569468035027395
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1626824368
+  tradeAmount        :  83097809180328356
+  tBalance           :  1570471658854699039
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1626824377
+  tradeAmount        :  68654730053621267
+  tBalance           :  1501816928801077772
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1626950810
+  tradeAmount        :  76131916703761159
+  tBalance           :  1425685012097316613
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[8]-------------: 
+  timestamp          :  1626950819
+  tradeAmount        :  62899566683147166
+  tBalance           :  1362785445414169447
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[9]-------------: 
+  timestamp          :  1627042669
+  tradeAmount        :  69749958490608724
+  tBalance           :  1293035486923560723
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[10]-------------: 
+  timestamp          :  1627042681
+  tradeAmount        :  57626845023462368
+  tBalance           :  1235408641900098355
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[11]-------------: 
+  timestamp          :  1627219147
+  tradeAmount        :  63902984714967655
+  tBalance           :  1171505657185130700
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[12]-------------: 
+  timestamp          :  1627219153
+  tradeAmount        :  52796123128904063
+  tBalance           :  1118709534056226637
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[13]-------------: 
+  timestamp          :  1627312168
+  tradeAmount        :  58546148898873005
+  tBalance           :  1060163385157353632
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[14]-------------: 
+  timestamp          :  1627312180
+  tradeAmount        :  48370349206303340
+  tBalance           :  1011793035951050292
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[15]-------------: 
+  timestamp          :  1627407033
+  tradeAmount        :  53638363938361837
+  tBalance           :  958154672012688455
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[16]-------------: 
+  timestamp          :  1627407045
+  tradeAmount        :  44315577426533236
+  tBalance           :  913839094586155219
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  5252215886329013968
+dueTokenReward       :  400927643998304
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1626645377
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1626950801
+  tradeAmount        :  769009259633951112
+  tBalance           :  2769009259633951112
+  rewardTokenBalance :  400927643998304
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1627042660
+  tradeAmount        :  704545035258673988
+  tBalance           :  3473554294892625100
+  rewardTokenBalance :  400927643998304
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1627219138
+  tradeAmount        :  645484694090582378
+  tBalance           :  4119038988983207478
+  rewardTokenBalance :  400927643998304
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[4]-------------: 
+  timestamp          :  1627312159
+  tradeAmount        :  591375241402757627
+  tBalance           :  4710414230385965105
+  rewardTokenBalance :  400927643998304
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[5]-------------: 
+  timestamp          :  1627407027
+  tradeAmount        :  541801655943048863
+  tBalance           :  5252215886329013968
+  rewardTokenBalance :  400927643998304
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  1162956354642761
+dueETHReward         :  21145076083534705
+Trade[0]-------------: 
+  timestamp          :  1626645377
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  1162956354642761
+dueETHReward         :  21145076083534705
+Trade[0]-------------: 
+  timestamp          :  1626645377
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  2755544179002306641
+dueTokenReward       :  1049901888924485
+dueETHReward         :  29133095658272474
+Trade[0]-------------: 
+  timestamp          :  1626645407
+  tradeAmount        :  1000000000000000007
+  tBalance           :  1000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1626736845
+  tradeAmount        :  916172369099999999
+  tBalance           :  1916172369100000006
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1626824362
+  tradeAmount        :  839371809902306635
+  tBalance           :  2755544179002306641
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-28T15:54:42.679Z
+*******************************************************
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  82000000000000000000
+dueTokenReward       :  39456897950353370
+dueETHReward         :  866948119424922924
+new Token Balance    :  82000000000000000000
+new ETH Balance      :  11494325960255926196
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  913839094586155219
+dueTokenReward       :  0
+dueETHReward         :  0
+new Token Balance    :  913839094586155219
+new ETH Balance      :  2175881122353702491
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  5252215886329013968
+dueTokenReward       :  400927643998304
+dueETHReward         :  0
+new Token Balance    :  5252215886329013968
+new ETH Balance      :  152764463393863142
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  1162956354642761
+dueETHReward         :  21145076083534705
+new Token Balance    :  2000000000000000000
+new ETH Balance      :  817098842446773043
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  1162956354642761
+dueETHReward         :  21145076083534705
+new Token Balance    :  2000000000000000000
+new ETH Balance      :  897310470000000000
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  2755544179002306641
+dueTokenReward       :  1049901888924485
+dueETHReward         :  29133095658272474
+new Token Balance    :  2755544179002306641
+new ETH Balance      :  1608941666422927934
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x888a7D7E588F65e3A466d1D50e9C8a05Af02D921
+Testing session on      :  2021-07-28T20:22:46.244Z
+*******************************************************
+Total LP Tokens            :  3162277660168378331
+Router Approve Success      :  0xae92ceaeb1ed2954277fd088f095026ad1eb0c403f1a341e364e34b3ce23156f
+RemoveLiquidityETH Failed
+Done
+*******************************************************
+Testing Hive Contract at:  0x9D983CdfeCf7A5896634e3D143e31f4C8050B607
+Testing session on      :  2021-07-28T20:25:15.823Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x95f973dd2230946ca5a64adf3c9b5aa7d72e733c8ce69dee7b531736f245d67c
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x019c17b58bdaf05a66bb42958e8e19646ba43b13fa4d95f80d58f6831830f97f
+AddLiquidityETH Failed
+Circulating Supply      :  100000000000000000000
+userTrade Error: Error: Returned error: execution reverted
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0x9D983CdfeCf7A5896634e3D143e31f4C8050B607
+Testing session on      :  2021-07-28T20:27:08.294Z
+*******************************************************
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0xb9156f4e1685a891981bcbbcf688e41120f05e145994d1f64d6f0aac2d58a262
+AddLiquidityETH Failed
+Circulating Supply      :  100000000000000000000
+userTrade Error: Error: Returned error: execution reverted
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0x9D983CdfeCf7A5896634e3D143e31f4C8050B607
+Testing session on      :  2021-07-28T20:39:44.153Z
+*******************************************************
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x589dc683d1c2ca80a551b9ee9ca68d499912d3f8daa894e79a1a32eb0e72cbd8
+AddLiquidityETH Failed
+Circulating Supply      :  100000000000000000000
+userTrade Error: Error: Returned error: execution reverted
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0x6AA184529FCD5d9883EcB04378AF0784ec317986
+Testing session on      :  2021-07-28T22:04:16.738Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x7361656df9b96ec5117c3c8c3c8fab46d6996121c833a4b031650b10eee079a2
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0xcbdb8c9cd8fb13175c895cc5dbeb24f181eb75bbeffb56467d0be4f0eefb35b4
+AddLiquidityETH Failed
+Circulating Supply      :  100000000000000000000
+userTrade Error: Error: Returned error: execution reverted
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0xf759539f09EC394Ebccd76cc97188BaA62079b87
+Testing session on      :  2021-07-28T22:31:33.040Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xc8acacdd2eb607b2de91a9dd6a3e496db926a0c8395dfec2899c8b983bb20b59
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x4f80dace01251e9fc427cd4d02a3053a3ff1fb599d16413ce48bfb7c601b541b
+AddLiquidityETH Failed
+Circulating Supply      :  100000000000000000000
+userTrade Error: Error: Returned error: execution reverted
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0x917ba87d4b9112508a28b7D01d1F52b2b054db02
+Testing session on      :  2021-07-28T23:24:26.612Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x35b1edc722c1555408a61621c8f9d9efa7b71a0d23b1c447d1c5dc9ca2eb3b34
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x6EeEE844A60103bd8A54B2314C3d5f3A8d4711ec
+Testing session on      :  2021-07-28T23:33:52.176Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x060e1116d0d2fe1beaa10d48af9d21964aff7f565d72cadf6c856df42a8a562a
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xA23FE5d83606979b4BDb07eBE3cE004eb32eA034
+Testing session on      :  2021-07-28T23:41:06.114Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x9855c487fdedb64d36e2f953e14ae9bb4ababafd9ef6c1e9969c573a71dd19e4
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xb7D29887B65a94ff6cb26d9945CE2e8529e7E0Ab
+Testing session on      :  2021-07-28T23:57:13.548Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x92ee421809670ffd8bf793e31193d333f81b8129a561d8a87b4925a9d3a34b82
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x90b0bF8D759EabdD42D2b1A4Ee5F6cAE6831cC87
+Testing session on      :  2021-07-29T00:08:27.039Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x7d60d0d65768bc1882228965ac2378502739a94f188051d76e78d8503e6fadb6
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x422338E414EE99e2010cF4EC5155d4aD9f139f26
+Testing session on      :  2021-07-29T00:12:50.131Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xbabeab7d185906b8fa2a4daea0db9ef9306abe49cd359a0d3525037a30251255
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xC650a5Be9073A35aAD8fC6De9e963d3C26C74C9D
+Testing session on      :  2021-07-29T00:17:13.960Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x4d3af3bca40b6d19d2db24fa055f92a427fd080a7dda29ea664d5eb5a5b9e23c
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x3A19268C84ee1cce73f6C27FA91231C947dBF787
+Testing session on      :  2021-07-29T00:20:06.316Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xe26121bf8ab6d1e1e50da90b3ff6847b958a1d137e79f3c36d9015f492bf5274
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x5F885Ec2a2EBd558B7D1cEe4751B56D2b87e13e4
+Testing session on      :  2021-07-29T00:25:49.931Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0x133db8a538abce267282ee74bb33cf2d1db871dfdcb4fbaebd25f7990f1241e3
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T00:31:51.446Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xd782c4596516a23f9dab6ffb2f8551b70956c0714a3a71e4a366cc8978077c22
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T00:35:17.831Z
+*******************************************************
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x9007aa8e2ebbbb929bd43e5a1f512db9f44dace61ec3b9b58b34daeec01c680b
+AddLiquidityETH Success :  0x1ece39d55fe8f1d93b24edb634ba07d75cca48e4048640dbc68cd8da5e4d9cd4
+Pair Address            :  0x18f683cdf7a60c53de3dbe197791df9c52c3ff09
+Reserve ETH             :  1000000000000000000n
+Reserve Token           :  10000000000000000000n
+Liquidity               :  3162277660168378331n
+InitTrading Success     :  0xdf15c8fc7f059dd8f200d198a7bf00cc939e9aa4b7fd42c26b8bfcba9f95c08b
+Circulating Supply      :  90000000000000000000
+MainAccount Trade       :  Result {
+  '0': '1627518940',
+  '1': '10000000000000000000',
+  '2': '82000000000000000000',
+  '3': '0',
+  '4': '0',
+  '5': true,
+  timestamp: '1627518940',
+  tradeAmount: '10000000000000000000',
+  tBalance: '82000000000000000000',
+  rewardTokenBalance: '0',
+  rewardETHBalance: '0',
+  sellFlag: true
+}
+
+Pair Creation Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T19:30:18.669Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Failed Error: Error: Returned error: insufficient funds for gas * price + value
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T19:31:48.280Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Failed Error: Error: Returned error: insufficient funds for gas * price + value
+    at Object.ErrorResponse (d:\RugPull\HiveToken\web3\node_modules\web3-core-helpers\lib\errors.js:28:19)
+    at d:\RugPull\HiveToken\web3\node_modules\web3-core-requestmanager\lib\index.js:303:36
+    at XMLHttpRequest.request.onreadystatechange (d:\RugPull\HiveToken\web3\node_modules\web3-providers-http\lib\index.js:98:13)
+    at XMLHttpRequestEventTarget.dispatchEvent (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request-event-target.js:34:22)
+    at XMLHttpRequest._setReadyState (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:208:14)
+    at XMLHttpRequest._onHttpResponseEnd (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:318:14)
+    at IncomingMessage.<anonymous> (d:\RugPull\HiveToken\web3\node_modules\xhr2-cookies\dist\xml-http-request.js:289:61)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  data: null
+}
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T19:33:11.510Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T19:40:16.402Z
+*******************************************************
+TaxEnabled :  true
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-29T19:41:34.932Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x58d5dd9702f0b3ede8f915aa522eef873d0776f189546fcdf28bece71234cb89
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1111333778668448008n
+Reserve ETH                   :  8999999999999999993n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0xf9aa47d5b4404b1003f2ded95de4ef149a1731cfea02852a0af2428a194586d8
+Total Act Tokens          :  12224671565352928n
+Token Total Tax           :  1344713872188821n  [10.999%]
+Net Token Sold            :  10879957693164107n
+Contract Balance          :  2444713872188821
+Circulating Supply        :  90987775328434647079
+SwapAndLiquifyBalance     :  1111233578267646
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1987775328434647072
+swapTokenswithFee Success :  0xf97c91b1ce86b6faf76f427e3a8165e63fbd886486218dcb0c0846f0e1b7e077
+Total Act Tokens          :  9989951467036089n
+Token Total Tax           :  998995146703608n  [9.999%]
+Net Token Sold            :  8990956320332481n
+Contract Balance          :  3443709018892429
+Circulating Supply        :  90977785376967610990
+SwapAndLiquifyBalance     :  1610731151619450
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-30T06:07:41.020Z
+*******************************************************
+  current timestamp  : 2021-07-30 06:07:45
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-30T06:17:55.199Z
+*******************************************************
+  current timestamp  : 2021-07-30 06:18:06
+  snapshot timestamp : 2021-07-29 00:31:58
+  duration           : 1 Days 7:46:8
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-30T06:18:52.975Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xc6877545467f0291ea8e63e0550feb539e5b2a5267b1eb14b6d1019f00d068ca
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1232347338103794094n
+Reserve ETH                   :  8117883822612146918n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1977785376967610983
+swapTokenswithFee Success :  0x00aa29e060f21340639aef7f7e9b98824ca039c8993551ec054ea189cf984768
+Total Act Tokens          :  13555820719141735n
+Token Total Tax           :  1491140279105589n  [10.999%]
+Net Token Sold            :  12064680440036146n
+Contract Balance          :  4934849297998018
+Circulating Supply        :  91866216647649818918
+SwapAndLiquifyBalance     :  2288522187576536
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1964229556248469248
+swapTokenswithFee Success :  0x64ab12a285657ec8c3521d55d3d55d19abe5c9a8ecc3077caf56817eaaf0556c
+Total Act Tokens          :  11074699903709843n
+Token Total Tax           :  1107469990370984n  [9.999%]
+Net Token Sold            :  9967229913338859n
+Contract Balance          :  6042319288369002
+Circulating Supply        :  91855141947746109075
+SwapAndLiquifyBalance     :  2842257182762028
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-31T13:25:25.966Z
+*******************************************************
+  current timestamp  : 2021-07-31 13:25:28
+  snapshot timestamp : 2021-07-30 06:19:01
+  duration           : 1 Days 9:6:27
+  totStaked          : 6000000000000000000
+  totTokenReward     : 1832977867272979
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-07-31T18:09:36.538Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x4d85b0fe8c8b08ebdab4747bf21db551ab5955b59c1fe5eb4dcf40c109cfb647
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1365849730939886248n
+Reserve ETH                   :  7325924159668969730n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1953154856344759405
+swapTokenswithFee Success :  0xb6039af42f93a814383608cc261e12278d19067ee6548f87c3080db8f1221479
+Total Act Tokens          :  15024347040338748n
+Token Total Tax           :  1652678174437261n  [10.999%]
+Net Token Sold            :  13371668865901487n
+Contract Balance          :  7694997462806263
+Circulating Supply        :  92654109174002322520
+SwapAndLiquifyBalance     :  3593474534778965
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1938130509304420657
+swapTokenswithFee Success :  0xa51623ada190b4864749c1b023308896d1fcd38cd920255fcd8ba6999d5692ba
+Total Act Tokens          :  12270295970339110n
+Token Total Tax           :  1227029597033910n  [9.999%]
+Net Token Sold            :  11043266373305200n
+Contract Balance          :  8922027059840173
+Circulating Supply        :  92641838878031983410
+SwapAndLiquifyBalance     :  4206989333295920
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-01T18:50:31.620Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x655f03ab7b8ca7ad45f1a723ec2340dc810a1d1f9a325401d97963a4e091f6e0
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1512883084877685662n
+Reserve ETH                   :  6615305185417358776n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1925860213334081547
+swapTokenswithFee Success :  0x62dcc5b8387355d13dfeca7c73f7e58ebb4212f0d3e838526332ecc7e29b34d7
+Total Act Tokens          :  16641713933654542n
+Token Total Tax           :  1830588532701999n  [10.999%]
+Net Token Sold            :  14811125400952543n
+Contract Balance          :  10752615592542172
+Circulating Supply        :  93360231073589146509
+SwapAndLiquifyBalance     :  5039075029978647
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1909218499400427005
+swapTokenswithFee Success :  0x1639b4765635d32b5ae0b9c0004daf401a22944787826a22130da966e9c8dd33
+Total Act Tokens          :  13585591573366789n
+Token Total Tax           :  1358559157336678n  [9.999%]
+Net Token Sold            :  12227032416030111n
+Contract Balance          :  12111174749878850
+Circulating Supply        :  93346645482015779720
+SwapAndLiquifyBalance     :  5718354608646986
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-01T19:00:39.547Z
+*******************************************************
+  current timestamp  : 2021-08-01 19:00:42
+  snapshot timestamp : 2021-08-01 18:50:45
+  duration           : 0 Days 2:9:57
+  totStaked          : 89901987091401349670
+  totTokenReward     : 1514975620937279
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-02T22:57:48.438Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x38eddff8183d56027d80127dfeef8244c9dd68e6d34cac3b24a8654b15541af0
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1674487789807636948n
+Reserve ETH                   :  5978109008910907284n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1895632907827060216
+swapTokenswithFee Success :  0x4532124262510bc77a97b622bee2845d6c6390779d8c872830948fa016727e6e
+Total Act Tokens          :  18419365687884006n
+Token Total Tax           :  2026130225667240n  [10.999%]
+Net Token Sold            :  16393235462216766n
+Contract Balance          :  14137304975546090
+Circulating Supply        :  93992460450651329860
+SwapAndLiquifyBalance     :  6639322893041186
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1877213542139176210
+swapTokenswithFee Success :  0x4a45afbeddd2637ae901e17051685667a7ec44ec1ea3a1e1fe443d7f608b0b0f
+Total Act Tokens          :  15029259137400212n
+Token Total Tax           :  1502925913740020n  [9.999%]
+Net Token Sold            :  13526333223660192n
+Contract Balance          :  15640230889286110
+Circulating Supply        :  93977431191513929648
+SwapAndLiquifyBalance     :  7390785849911196
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-04T03:03:13.142Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x191d4269e525457d47aacc67612dfa834973c13d1ec52945e955601fcff4ac14
+actual ETH                    :  0n
+actual Token                  :  0n
+Reserve Token                 :  1851666080075667809n
+Reserve ETH                   :  5407225719837105817n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1862184283001775998
+swapTokenswithFee Success :  0x1faa6ebb8485f726fa5b629069ba3e8354285a453d1a5e817a380f4c667c701a
+Total Act Tokens          :  20368326880832345n
+Token Total Tax           :  2240515956891557n  [10.999%]
+Net Token Sold            :  18127810923940788n
+Contract Balance          :  17880746846177667
+Circulating Supply        :  94557865722392775728
+SwapAndLiquifyBalance     :  8409202193952813
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1841815956120943653
+swapTokenswithFee Success :  0xf0a187a196ebefbaa40c7920d6908a9b9aee0fa42a19a85f6c6e819393454f95
+Total Act Tokens          :  16609422731374532n
+Token Total Tax           :  1660942273137452n  [9.999%]
+Net Token Sold            :  14948480458237080n
+Contract Balance          :  19541689119315119
+Circulating Supply        :  94541256299661401196
+SwapAndLiquifyBalance     :  9239673330521539
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-05T10:33:14.080Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-05T11:22:50.414Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-05T11:54:59.768Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1825206533389569121
+swapTokenswithFee Success :  0xc4c71237fe03f519081590e37fb6adc4662bc2717c71b3103196e7f5b7c1c769
+Total Act Tokens          :  22498659827783333n
+Token Total Tax           :  2249865982778332n  [9.999%]
+Net Token Sold            :  20248793845005001n
+Contract Balance          :  21791555102093451
+Circulating Supply        :  95552415021965281764
+SwapAndLiquifyBalance     :  10364606321910705
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1802707873561785788
+swapTokenswithFee Success :  0x215cceb4bc45e611de261e6c2fc5243c0031667e456c2fb5ea9d6f2ad7228d14
+Total Act Tokens          :  20364039157611500n
+Token Total Tax           :  2036403915761150n  [10%]
+Net Token Sold            :  18327635241850350n
+Contract Balance          :  23827959017854601
+Circulating Supply        :  95532050982807670264
+SwapAndLiquifyBalance     :  11382808279791280
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-05T12:42:18.265Z
+*******************************************************
+Staking Interval          :  86400
+Contract Token Balance    :  23827959017854601
+Contract ETH Balance      :  0
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1627518718
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1627625941
+  totStaked          : 6000000000000000000
+  totTokenReward     : 1832977867272979
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[2]----------:
+  timestamp          : 1627754988
+  totStaked          : 89000000000000000007
+  totTokenReward     : 1367084238333995
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[3]----------:
+  timestamp          : 1627843845
+  totStaked          : 89901987091401349670
+  totTokenReward     : 1514975620937279
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[4]----------:
+  timestamp          : 1627945075
+  totStaked          : 90715978664697901863
+  totTokenReward     : 1677782414687611
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[5]----------:
+  timestamp          : 1628046205
+  totStaked          : 91451012574188719504
+  totTokenReward     : 1856624898143050
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[6]----------:
+  timestamp          : 1628159603
+  totStaked          : 92115246908512153650
+  totTokenReward     : 2052570749418666
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  81990000000000000000
+dueTokenReward       :  7648953323285635
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627518940
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1627525225
+  tradeAmount        :  10000000000000000
+  tBalance           :  81990000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  1782343834404174288
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627587754
+  tradeAmount        :  12224671565352928
+  tBalance           :  1987775328434647072
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1627587766
+  tradeAmount        :  9989951467036089
+  tBalance           :  1977785376967610983
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1627625950
+  tradeAmount        :  13555820719141735
+  tBalance           :  1964229556248469248
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1627625962
+  tradeAmount        :  11074699903709843
+  tBalance           :  1953154856344759405
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1627754997
+  tradeAmount        :  15024347040338748
+  tBalance           :  1938130509304420657
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1627755009
+  tradeAmount        :  12270295970339110
+  tBalance           :  1925860213334081547
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1627843851
+  tradeAmount        :  16641713933654542
+  tBalance           :  1909218499400427005
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[8]-------------: 
+  timestamp          :  1627843860
+  tradeAmount        :  13585591573366789
+  tBalance           :  1895632907827060216
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[9]-------------: 
+  timestamp          :  1627945081
+  tradeAmount        :  18419365687884006
+  tBalance           :  1877213542139176210
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[10]-------------: 
+  timestamp          :  1627945090
+  tradeAmount        :  15029259137400212
+  tBalance           :  1862184283001775998
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[11]-------------: 
+  timestamp          :  1628046214
+  tradeAmount        :  20368326880832345
+  tBalance           :  1841815956120943653
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[12]-------------: 
+  timestamp          :  1628046223
+  tradeAmount        :  16609422731374532
+  tBalance           :  1825206533389569121
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[13]-------------: 
+  timestamp          :  1628164520
+  tradeAmount        :  22498659827783333
+  tBalance           :  1802707873561785788
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[14]-------------: 
+  timestamp          :  1628166821
+  tradeAmount        :  20364039157611500
+  tBalance           :  1782343834404174288
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  4715978664697901863
+dueTokenReward       :  1038449066737356
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627587730
+  tradeAmount        :  1000000000000000007
+  tBalance           :  3000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1627625941
+  tradeAmount        :  901987091401349663
+  tBalance           :  3901987091401349670
+  rewardTokenBalance :  610992622424326
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1627754988
+  tradeAmount        :  813991573296552193
+  tBalance           :  4715978664697901863
+  rewardTokenBalance :  670929083669691
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000000000000000000
+dueTokenReward       :  797575213552161
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  797575213552161
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  3042628483705594113
+dueTokenReward       :  87399264614794
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627525225
+  tradeAmount        :  8900000000000000
+  tBalance           :  8900000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627843845
+  tradeAmount        :  735033909490817641
+  tBalance           :  743933909490817641
+  rewardTokenBalance :  286686010119
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1627945075
+  tradeAmount        :  664234334323434146
+  tBalance           :  1408168243814251787
+  rewardTokenBalance :  14045664851618
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1628046205
+  tradeAmount        :  600802857759678425
+  tBalance           :  2008971101573930212
+  rewardTokenBalance :  42634087753102
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[4]-------------: 
+  timestamp          :  1628159603
+  tradeAmount        :  544030201121928369
+  tBalance           :  2553001302695858581
+  rewardTokenBalance :  87399264614794
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[5]-------------: 
+  timestamp          :  1628162579
+  tradeAmount        :  489627181009735532
+  tBalance           :  3042628483705594113
+  rewardTokenBalance :  87399264614794
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-06T21:57:08.343Z
+*******************************************************
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+Token Balance        :  81990000000000000000
+dueTokenReward       :  7648953323285635
+ETH Balance          :  10501725659680849120
+dueETHReward         :  0
+new Token Balance    :  81997648953323285635
+new ETH Balance      :  10497614279680849120
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+Token Balance        :  1782343834404174288
+dueTokenReward       :  0
+ETH Balance          :  2170546367005084926
+dueETHReward         :  0
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+Token Balance        :  4715978664697901863
+dueTokenReward       :  1038449066737356
+ETH Balance          :  768120459014767934
+dueETHReward         :  0
+new Token Balance    :  4717017113764639219
+new ETH Balance      :  765051999014767934
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+Token Balance        :  4715978664697901863
+dueTokenReward       :  1038449066737356
+ETH Balance          :  834102608530307748
+dueETHReward         :  0
+new Token Balance    :  2000797575213552161
+new ETH Balance      :  830301268530307748
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+Token Balance        :  4715978664697901863
+dueTokenReward       :  1038449066737356
+ETH Balance          :  914464236083534705
+dueETHReward         :  0
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-07T03:42:00.443Z
+*******************************************************
+Staking Interval          :  86400
+Contract Token Balance    :  14342981414279449
+Contract ETH Balance      :  0
+-------------------------------------------------------
+--------------    Staking Snapshots     ---------------
+-------------------------------------------------------
+Snapshot[0]----------:
+  timestamp          : 1627518718
+  totStaked          : 100000000000000000000
+  totTokenReward     : 0
+  totETHReward       : 0
+  totTokenClaimed    : 0
+  totETHClaimed      : 0
+Snapshot[1]----------:
+  timestamp          : 1627625941
+  totStaked          : 6000000000000000000
+  totTokenReward     : 1832977867272979
+  totETHReward       : 0
+  totTokenClaimed    : 610992622424326
+  totETHClaimed      : 0
+Snapshot[2]----------:
+  timestamp          : 1627754988
+  totStaked          : 89000000000000000007
+  totTokenReward     : 1367084238333995
+  totETHReward       : 0
+  totTokenClaimed    : 1290128148063732
+  totETHClaimed      : 0
+Snapshot[3]----------:
+  timestamp          : 1627843845
+  totStaked          : 89901987091401349670
+  totTokenReward     : 1514975620937279
+  totETHReward       : 0
+  totTokenClaimed    : 1494821187564753
+  totETHClaimed      : 0
+Snapshot[4]----------:
+  timestamp          : 1627945075
+  totStaked          : 90715978664697901863
+  totTokenReward     : 1677782414687611
+  totETHReward       : 0
+  totTokenClaimed    : 1640607677632886
+  totETHClaimed      : 0
+Snapshot[5]----------:
+  timestamp          : 1628046205
+  totStaked          : 91451012574188719504
+  totTokenReward     : 1856624898143050
+  totETHReward       : 0
+  totTokenClaimed    : 1800895626709634
+  totETHClaimed      : 0
+Snapshot[6]----------:
+  timestamp          : 1628159603
+  totStaked          : 92115246908512153650
+  totTokenReward     : 2052570749418666
+  totETHReward       : 0
+  totTokenClaimed    : 1976603257510130
+  totETHClaimed      : 0
+-------------------------------------------------------
+-----------------    User Trades     ------------------
+-------------------------------------------------------
+Main:  0x96D82296ef04e42Ae3a1dE611445d3EE9486d5C3
+walletBalance        :  81997648953323285635
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  92000000000000000000
+  tBalance           :  92000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627518940
+  tradeAmount        :  10000000000000000000
+  tBalance           :  82000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1627525225
+  tradeAmount        :  10000000000000000
+  tBalance           :  81990000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1628287041
+  tradeAmount        :  7648953323285635
+  tBalance           :  81997648953323285635
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account1:  0x6756183E14ad778818f05A3aF692C2F4b6C7fDE7
+walletBalance        :  1782343834404174288
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627587754
+  tradeAmount        :  12224671565352928
+  tBalance           :  1987775328434647072
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[2]-------------: 
+  timestamp          :  1627587766
+  tradeAmount        :  9989951467036089
+  tBalance           :  1977785376967610983
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[3]-------------: 
+  timestamp          :  1627625950
+  tradeAmount        :  13555820719141735
+  tBalance           :  1964229556248469248
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[4]-------------: 
+  timestamp          :  1627625962
+  tradeAmount        :  11074699903709843
+  tBalance           :  1953154856344759405
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[5]-------------: 
+  timestamp          :  1627754997
+  tradeAmount        :  15024347040338748
+  tBalance           :  1938130509304420657
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[6]-------------: 
+  timestamp          :  1627755009
+  tradeAmount        :  12270295970339110
+  tBalance           :  1925860213334081547
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[7]-------------: 
+  timestamp          :  1627843851
+  tradeAmount        :  16641713933654542
+  tBalance           :  1909218499400427005
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[8]-------------: 
+  timestamp          :  1627843860
+  tradeAmount        :  13585591573366789
+  tBalance           :  1895632907827060216
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[9]-------------: 
+  timestamp          :  1627945081
+  tradeAmount        :  18419365687884006
+  tBalance           :  1877213542139176210
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[10]-------------: 
+  timestamp          :  1627945090
+  tradeAmount        :  15029259137400212
+  tBalance           :  1862184283001775998
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[11]-------------: 
+  timestamp          :  1628046214
+  tradeAmount        :  20368326880832345
+  tBalance           :  1841815956120943653
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[12]-------------: 
+  timestamp          :  1628046223
+  tradeAmount        :  16609422731374532
+  tBalance           :  1825206533389569121
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[13]-------------: 
+  timestamp          :  1628164520
+  tradeAmount        :  22498659827783333
+  tBalance           :  1802707873561785788
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+Trade[14]-------------: 
+  timestamp          :  1628166821
+  tradeAmount        :  20364039157611500
+  tBalance           :  1782343834404174288
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  true
+-------------------------------------------------------
+Account2:  0x9230Aa3C6c01cc8760710613091d8a1d601BFb82
+walletBalance        :  4717017113764639219
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627587730
+  tradeAmount        :  1000000000000000007
+  tBalance           :  3000000000000000007
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1627625941
+  tradeAmount        :  901987091401349663
+  tBalance           :  3901987091401349670
+  rewardTokenBalance :  610992622424326
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1627754988
+  tradeAmount        :  813991573296552193
+  tBalance           :  4715978664697901863
+  rewardTokenBalance :  670929083669691
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[4]-------------: 
+  timestamp          :  1628287053
+  tradeAmount        :  1038449066737356
+  tBalance           :  4717017113764639219
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account3:  0x25115631eE867BCf44CF8Cf003EaF6078198138E
+walletBalance        :  2000797575213552161
+dueTokenReward       :  0
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1628287059
+  tradeAmount        :  797575213552161
+  tBalance           :  2000797575213552161
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Account4:  0x103F078eA413bd6Aaab96Fa1B687f36b3f3d0543
+walletBalance        :  2000000000000000000
+dueTokenReward       :  797575213552161
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627518718
+  tradeAmount        :  2000000000000000000
+  tBalance           :  2000000000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+Test:  0x9f1De4E8c2a63828932e76A75bBc1315e87d10d0
+walletBalance        :  3042628483705594113
+dueTokenReward       :  87399264614794
+dueETHReward         :  0
+Trade[0]-------------: 
+  timestamp          :  1627525225
+  tradeAmount        :  8900000000000000
+  tBalance           :  8900000000000000
+  rewardTokenBalance :  0
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[1]-------------: 
+  timestamp          :  1627843845
+  tradeAmount        :  735033909490817641
+  tBalance           :  743933909490817641
+  rewardTokenBalance :  286686010119
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[2]-------------: 
+  timestamp          :  1627945075
+  tradeAmount        :  664234334323434146
+  tBalance           :  1408168243814251787
+  rewardTokenBalance :  14045664851618
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[3]-------------: 
+  timestamp          :  1628046205
+  tradeAmount        :  600802857759678425
+  tBalance           :  2008971101573930212
+  rewardTokenBalance :  42634087753102
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[4]-------------: 
+  timestamp          :  1628159603
+  tradeAmount        :  544030201121928369
+  tBalance           :  2553001302695858581
+  rewardTokenBalance :  87399264614794
+  rewardETHBalance   :  0
+  sellFlag           :  false
+Trade[5]-------------: 
+  timestamp          :  1628162579
+  tradeAmount        :  489627181009735532
+  tBalance           :  3042628483705594113
+  rewardTokenBalance :  87399264614794
+  rewardETHBalance   :  0
+  sellFlag           :  false
+-------------------------------------------------------
+
+Staking Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0xE757602E233AE61adeC109B9E0D281103E410235
+Testing session on      :  2021-08-07T04:08:37.907Z
+*******************************************************
+Test of auth step1:  0xd042eed2285de5b381a1a9e9ff04c84b1c65c879de7b5e06413ad2c31a728308
+Test of auth step2:  0x41fbcaa72a3a6f43e6a9f4644522614d490d168faeda1455ca9c291d30c3a41f
+Test of auth step3:  0x62e1ac700e41e01aa206241e8ca22753650e33c3091ba8f89ef06c48f38c5194
+
+Staking Test Processed
+--------------------------------------------------------

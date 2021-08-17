@@ -1,0 +1,224 @@
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-14T23:06:34.329Z
+*******************************************************
+Initializing Token:
+--------------------------------------------------------
+Init Success: 0xeb6ae23a90c7b88ae6d18c8cfd1752849d82754f0eefe41971dd838963575501
+MainAccount Balance     :  92000000000000000000
+Account1 Balance        :  2000000000000000000
+Account2 Balance        :  2000000000000000000
+Account3 Balance        :  2000000000000000000
+Account4 Balance        :  2000000000000000000
+Circulating Supply      :  100000000000000000000
+
+Token Init Test Processed
+--------------------------------------------------------
+Creating Pair:
+--------------------------------------------------------
+Router Approve Success  :  0x9a10fe0d5d79d026ec5a82d6a1c236626eb926d98e0fde496517969127fa0874
+AddLiquidityETH Success :  0x9e22b6685cd3c9f4f022c835427a4c9d8129bbc213fc54be75bd13244bc815df
+Pair Address            :  0x78b7881b1a0bb9d73b6e75aa06af7cba574ba180
+Reserve ETH             :  10000000000000000000n
+Reserve Token           :  1000000000000000000n
+Liquidity               :  3162277660168378331n
+InitTrading Success     :  0x6514671b41c46f2cb17225a973a7402dabe2e785d454a6e02a08d6d0bf39fbbe
+Circulating Supply      :  90000000000000000000
+MainAccount Trade       :  Result {
+  '0': '1626304031',
+  '1': '10000000000000000000',
+  '2': '82000000000000000000',
+  '3': '0',
+  '4': '0',
+  '5': true,
+  timestamp: '1626304031',
+  tradeAmount: '10000000000000000000',
+  tBalance: '82000000000000000000',
+  rewardTokenBalance: '0',
+  rewardETHBalance: '0',
+  sellFlag: true
+}
+
+Pair Creation Test Processed
+--------------------------------------------------------
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xbc9611f9766d466e16caeaebb74c23ac800703d143ee1f02dac05d3ea7c732ed
+actual ETH                    :  111333778668448008n
+actual Token                  :  1000000000000000007n
+Reserve Token                 :  8999999999999999993n
+Reserve ETH                   :  1111333778668448008n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0xef84db988c5412121afab7760bcad340c6893dad8b4fffa605fedb38cdb8b301
+Total Act Tokens          :  539999999999999999n
+Token Total Tax           :  80999999999999997n  [14.999%]
+Net Token Sold            :  459000000000000002n
+Contract Balance          :  80999999999999997
+Circulating Supply        :  90460000000000000008
+SwapAndLiquifyBalance     :  26999999999999999
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  1460000000000000001
+swapTokenswithFee Success :  0x941637f733d943e9eded19548c3486982bff3adfb06ef752101d15c82ddad88f
+Total Act Tokens          :  283769999999999999n
+Token Total Tax           :  36606329999999997n  [12.899%]
+Net Token Sold            :  247163670000000002n
+Contract Balance          :  117606329999999994
+Circulating Supply        :  90176230000000000009
+SwapAndLiquifyBalance     :  41188499999999998
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  1176230000000000002
+swapTokenswithFee Success :  0x2377afd87824c76fe3c66ade633faff67a0234a8afcba0e6f966c5b608be6d0c
+Total Act Tokens          :  106767800369999999n
+Token Total Tax           :  11744458040699997n  [10.999%]
+Net Token Sold            :  95023342329300002n
+Contract Balance          :  129350788040699991
+Circulating Supply        :  90069462199630000010
+SwapAndLiquifyBalance     :  46526890018499997
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1069462199630000003
+swapTokenswithFee Success :  0xbcf0f0a4d1b0b6e61cc407b5cb4f0fe7e5a8d1937a62dbee36839982d2051fa8
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  2333036699672378n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  90665307748615500
+Circulating Supply        :  89981251516519036311
+SwapAndLiquifyBalance     :  3312751604207223
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-16T13:25:32.994Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0x03fad16aadf98198617e8584674abbdf03f6e60253e81fabfb9a5a49cb67c68b
+actual ETH                    :  113213444551665008n
+actual Token                  :  988057662712916735n
+Reserve Token                 :  8892518964416250595n
+Reserve ETH                   :  1130096603514720107n
+-------------------------------------------------------
+-------    Selling 6% of Pair Reserves       ----------
+Account Balance           :  981251516519036304
+swapTokenswithFee Success :  0x3605debd0a9b8e8348592e624d1b19d342d6464231f07d6f4c6d8ca899dee8b5
+Total Act Tokens          :  533551137864975035n
+Token Total Tax           :  80032670679746253n  [14.999%]
+Net Token Sold            :  453518467185228782n
+Contract Balance          :  170697978428361753
+Circulating Supply        :  90435758041366978011
+SwapAndLiquifyBalance     :  29990308497455974
+-------------------------------------------------------
+-------    Selling 3% of Pair Reserves       ----------
+Account Balance           :  447700378654061269
+swapTokenswithFee Success :  0x41aec51dbb024d7f4f7bf17b56fe472fab62b376124c651405a0d124b12c601a
+Total Act Tokens          :  280381122948044381n
+Token Total Tax           :  36169164860297725n  [12.899%]
+Net Token Sold            :  244211958087746656n
+Contract Balance          :  206867143288659478
+Circulating Supply        :  90155376918418933630
+SwapAndLiquifyBalance     :  44009364644858193
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  167319255706016888
+swapTokenswithFee Success :  0xbcc60c56ea7871f6b3a1c65bb1a8529eb8759eef8e4aaecf7804ab995a886185
+Total Act Tokens          :  105492743286581486n
+Token Total Tax           :  11604201761523962n  [10.999%]
+Net Token Sold            :  93888541525057524n
+Contract Balance          :  218471345050183440
+Circulating Supply        :  90049884175132352144
+SwapAndLiquifyBalance     :  49284001809187267
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  61826512419435402
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-17T18:30:18.054Z
+*******************************************************
+TaxEnabled :  true
+-------------------------------------------------------
+---------    Buying 10% of Pair Reserves     ----------
+swapExactETHForTokens Success :  0xa5e56091b3ab72ef3093731988af6b5faab66467c0034a5770bb0ad8fd2d475d
+actual ETH                    :  115552419388402652n
+actual Token                  :  968413793121428355n
+Reserve Token                 :  8715724138092855202n
+Reserve ETH                   :  1153444250335035272n
+-------------------------------------------------------
+-------    Selling 1.1% of Pair Reserves     ----------
+Account Balance           :  2000000000000000000
+swapTokenswithFee Success :  0xa35c84d699847b63f2e3f392d37379291b061bfd20d5034df88a7ffac3953e13
+Total Act Tokens          :  25000000000000000n
+Token Total Tax           :  2500000000000000n  [10%]
+Net Token Sold            :  22500000000000000n
+-------       Swap and Liquify Event         ----------
+Tokens Swapped            :  25000000000000000n
+ETH Received              :  2964071831437199n
+Tokens added to Liq.      :  25000000000000000n
+Contract Balance          :  181504402752078183
+Circulating Supply        :  90922425002734759092
+SwapAndLiquifyBalance     :  6453298510398217
+-------------------------------------------------------
+-------    Selling 0.9% of Pair Reserves     ----------
+Account Balance           :  1904127034480978593
+swapTokenswithFee Success :  0xa90128ccf27a3ed4c1c983a77eb3006e5626f337a209bd97db180caf65445e2d
+Total Act Tokens          :  79209459696643058n
+Token Total Tax           :  7920945969664304n  [9.999%]
+Net Token Sold            :  71288513726978754n
+Contract Balance          :  189425348721742487
+Circulating Supply        :  90843215543038116034
+SwapAndLiquifyBalance     :  10413771495230369
+
+Trading Test Processed
+--------------------------------------------------------
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-18T14:39:15.933Z
+*******************************************************
+Contract LP Token Balance    :  13868059415313492
+Test of auth step1:  0xf21b106b3203d3d0db5d300493ff5539ddf44e8c25848f9a2238c1385f61e183
+Test of auth step2:  0x5d2a2cf8c21b5537ae1b1047f83fc242ca148ed7e37eba78c3635f93cd6ffbaa
+Test of auth step3:  0x4da449e86e577f23df9e51a543b3a8adb3c44cde47deacf2a41a19b144e5be76
+
+LP Liquification Test Processed
+--------------------------------------------------------
+Total LP Tokens            :  3162277660168378331
+Router Approve Success      :  0xff386acbb9d0e078ab710d09fed7adda5354e9a185eab5d23757551a50f3699a
+RemoveLiquidityETH Failed
+Done
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-18T21:35:45.979Z
+*******************************************************
+Contract LP Token Balance    :  0
+
+LP Liquification Test Processed
+--------------------------------------------------------
+Total LP Tokens            :  3162277660168378331
+Router Approve Success      :  0xafe65169dbb67c154167393a48d728089f16118669323f1ac7f25ea10c24cf40
+RemoveLiquidityETH Failed
+Done
+*******************************************************
+Testing Hive Contract at:  0x54eee8BA3b902Dba1e697b18e936076835E597FA
+Testing session on      :  2021-07-18T21:49:44.432Z
+*******************************************************
+Contract LP Token Balance    :  0
+
+LP Liquification Test Processed
+--------------------------------------------------------
+Total LP Tokens            :  3162277660168378331
+Router Approve Success      :  0x3bc906c31a8c0bb12ba75d7a4ee50d3e8bf526481f3805ee1060eae8e32695e9
+RemoveLiquidityETH Failed
+Done
